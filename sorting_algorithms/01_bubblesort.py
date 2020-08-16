@@ -19,3 +19,13 @@ def bubble_sort(array):
 
 def swap(i,j,array):
 	array[i] , array[j] = array[j], array[i]
+
+"""
+import numpy as np
+
+array = np.array([4,5,6,7,1,2,3])
+bubble_sort(array)
+
+#array([1, 2, 3, 4, 5, 6, 7])
+
+"""
