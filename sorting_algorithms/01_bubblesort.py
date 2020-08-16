@@ -7,7 +7,7 @@ def bubble_sort(array):
 	"""
 	is_sorted = False
 	counter = 0
-	while not is_sorted
+	while not is_sorted:
 		is_sorted = True
 		for i in range(len(array) - 1 - counter)
 			if array[i] > array[i+1]:
@@ -18,3 +18,4 @@ def bubble_sort(array):
 
 
 def swap(i,j,array):
+	array[i] , array[j] = array[j], array[i]
