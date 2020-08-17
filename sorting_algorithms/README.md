@@ -1,4 +1,4 @@
-## If you are interested in learning more about sorting algorithms, here follows a list with interesting material:
+## Study Materials
 
 ### Youtube Videos:
 
