@@ -1,4 +1,4 @@
-# Matrix Multiplication: Homework
+# Matrix Multiplication:
 
 1. Download the implementation of the Strassen’s algorithm from this link.
 2. Unzip the code and compile it by using the command:
