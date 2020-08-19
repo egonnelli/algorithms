@@ -1,4 +1,4 @@
-# Weighted Graphs: Homework
+# Weighted Graphs
 
 1. Implement the array-based version of the Dijkstra’s algorithm.
 2. Implement the binary heap-based version of the Dijkstra’s algorithm.
