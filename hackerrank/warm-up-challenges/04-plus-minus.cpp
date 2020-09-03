@@ -7,7 +7,26 @@ vector<string> split_string(string);
 // Complete the plusMinus function below.
 void plusMinus(vector<int> arr) {
 
+    int Pos = 0;
+    int Neg = 0;
+    int Zero = 0;
+    int size_t = arr.size();
 
+    for(int i = 0; i < size_t; i++){
+        if(arr[i]>0){
+            Pos++;
+        }
+        if(arr[i]<0){
+            Neg++;
+        }
+        if(arr[i]==0){
+            Zero++;
+        }
+    }
+
+    cout << (float)Pos/size_t << endl;
+    cout << (float)Neg/size_t << endl;
+    cout << (float)Zero/size_t << endl;
 }
 
 int main()
