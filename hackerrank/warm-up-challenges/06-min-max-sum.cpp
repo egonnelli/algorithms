@@ -13,6 +13,10 @@ void miniMaxSum(vector<int> arr) {
     // sort the vector
     sort(arr.begin(), arr.end()); 
 
+   for(int i = 0; i < size_t - 1; i++){
+        sum_min += arr[i];
+    }
+
 }
 
 int main()
