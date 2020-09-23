@@ -6,7 +6,10 @@ vector<string> split_string(string);
 
 // Complete the miniMaxSum function below.
 void miniMaxSum(vector<int> arr) {
-
+    
+    long size_t = arr.size();
+    long sum_min = 0;
+    long sum_max = 0;
 
 }
 
