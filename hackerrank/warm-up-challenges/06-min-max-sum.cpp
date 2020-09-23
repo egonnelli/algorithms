@@ -10,6 +10,8 @@ void miniMaxSum(vector<int> arr) {
     long size_t = arr.size();
     long sum_min = 0;
     long sum_max = 0;
+    // sort the vector
+    sort(arr.begin(), arr.end()); 
 
 }
 
