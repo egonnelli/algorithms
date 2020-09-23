@@ -17,6 +17,12 @@ void miniMaxSum(vector<int> arr) {
         sum_min += arr[i];
     }
 
+   for(int i = 1; i < size_t; i++){
+        sum_max += arr[i];
+    }
+
+cout << sum_min << " " << sum_max;
+
 }
 
 int main()
