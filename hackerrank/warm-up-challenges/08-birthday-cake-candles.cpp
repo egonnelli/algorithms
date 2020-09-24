@@ -14,6 +14,22 @@ vector<string> split(const string &);
  */
 
 int birthdayCakeCandles(vector<int> candles) {
+   
+    int size_t = candles.size();
+    int count = 0;
+    
+    for(int i = 0; i < size_t; i++){
+        if(candles[0] < candles[i])
+        candles[0] = candles[i];
+    }
+
+    for(int i = 0; i < size_t; i++){
+        if(candles[0] == candles[i]){
+            count += 1;
+            }
+    }
+
+return count;
 
 }
 
