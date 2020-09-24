@@ -18,13 +18,10 @@ int birthdayCakeCandles(vector<int> candles) {
     int size_t = candles.size();
     int count = 0;
     
-    for(int i = 0; i < size_t; i++){
-        if(candles[0] < candles[i])
-        candles[0] = candles[i];
-    }
+    sort(candles.begin(), candles.end());
 
     for(int i = 0; i < size_t; i++){
-        if(candles[0] == candles[i]){
+        if(candles[size_t-1] == candles[i]){
             count += 1;
             }
     }
