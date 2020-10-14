@@ -6,7 +6,7 @@ using namespace std;
  * Complete the timeConversion function below.
  */
 string timeConversion(string s) {
-    string hour_string = s.substr(0,2);
+    string hour_string = s.substr(0,2); // select the first two characters of the time
     int hour;
     size_t;
 
