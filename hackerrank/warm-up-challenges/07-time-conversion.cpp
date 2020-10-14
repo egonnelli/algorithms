@@ -6,6 +6,9 @@ using namespace std;
  * Complete the timeConversion function below.
  */
 string timeConversion(string s) {
+    string hour_string;
+    int hour;
+    size_t;
     
 
 }
