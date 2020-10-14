@@ -8,7 +8,10 @@ using namespace std;
 string timeConversion(string s) {
     string hour_string = s.substr(0,2); // select the first two characters of the time
     int hour = stoi(hour_string);
-    size_t;
+    size_t pos = s.find('PM');
+    if(pos != string::npos){
+        
+    }
 
 
 }
