@@ -15,6 +15,10 @@ string timeConversion(string s) {
         if(hour + 12 < 24){
             hour_string = to_string(hour+12);}
             }
+    else {
+          if(hour==12){
+              hour_string = "00";}
+          }
 
 }
 
