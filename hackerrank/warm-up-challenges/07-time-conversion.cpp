@@ -20,6 +20,8 @@ string timeConversion(string s) {
               hour_string = "00";}
           }
 
+return s.replace(0,2,hour_string).erase(s.size() - 2);
+
 }
 
 int main()
